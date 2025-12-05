@@ -31,19 +31,28 @@ Admin Features:
 
 ## Project Structure
 
-src/
- ├── main/
- │    ├── java/com/ips/
- │    │      ├── controller/
- │    │      ├── dao/
- │    │      ├── daoimpl/
- │    │      └── pojo/
- │    ├── resources/
- │    └── webapp/
- │           ├── WEB-INF/views/
- │           └── web.xml
-pom.xml
-EventOrganiser.sql
+```text
+Eventix-EventOrganiser/
+│
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/ips/
+│       │       ├── controller/
+│       │       ├── dao/
+│       │       ├── daoimpl/
+│       │       └── pojo/
+│       │
+│       ├── resources/
+│       │
+│       └── webapp/
+│           ├── WEB-INF/
+│           │   └── views/
+│           └── web.xml
+│
+├── pom.xml
+└── EventOrganiser.sql
+```
 
 ## Database Setup
 
@@ -59,7 +68,9 @@ This file contains:
 
 Create database manually (optional):
 
+```sql
 CREATE DATABASE EventOrganiser;
+```
 
 ## Author
 
